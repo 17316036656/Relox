@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/find_retailer.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=SfjTDGQwq7IKNoq9jiinZ8KscworEzKf"></script>
+    <title>劳力士零售商地址 - 寻找最就近的劳力士零售商</title>
+    <script>
+        (function(){
+            function initFontSize(){
+                document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
+            }
+            initFontSize();
+            window.addEventListener('resize',initFontSize,false);
+        })();
+    </script>
+    <script>
+        window.onload=function(){
+            let map = new BMap.Map("allmap");    // 创建Map实例
+            let point = new BMap.Point(116.46, 39.92);//初始化地图
+            let marker = new BMap.Marker(point);
+            map.addOverlay(marker);
+            map.centerAndZoom(point, 15);
+        }
+    </script>
+</head>
+<body>
+<header data-role="header">
+    <h1>
+        <a href="../index.html">
+            <img src="../images/rolex-logo-mobile.png" alt="">
+        </a>
+    </h1>
+    <ul class="clearFix">
+        <li class="fl"><a href="menu.html"><img src="../images/icon-menu.png" alt=""></a></li>
+        <li class="fr"><a href="wishList.html"><img src="../images/heart.png" alt=""></a></li>
+        <li class="fr"><a href="search.html"><img src="../images/search.png" alt=""></a></li>
+    </ul>
+</header>
+<section>
+    <div class="one">
+        <h2>选购劳力士腕表的地方</h2>
+        <h3>寻找零售商</h3>
+        <p>唯有劳力士授权的特约零售商，方能提供销售及保养劳力士腕表的服务。凭借其丰富经验、专业知识及独特工具，他们不仅确保您的劳力士腕表的各个零件均为真品及腕表长远的可靠运作，竭诚助您选购可伴随一生的时计。</p>
+    </div>
+    <div class="two">
+        <input type="text" placeholder="输入地点、城市或零售商名称">
+        <button><img src="../images/search_1.png" alt=""></button>
+    </div>
+    <div class="clearFix location">
+        <img src="../images/map.png" alt="" class="fl">
+        <a class="fl">寻找您的所在位置</a>
+    </div>
+    <div class="map">
+        <div class="four clearFix">
+            <div class="fl">
+                <p>地图</p>
+            </div>
+            <div class="fl">
+                <p>列表</p>
+            </div>
+        </div>
+        <div id="allmap"></div>
+    </div>
+    <ul>
+        <li>中国</li>
+        <li>选择区域<span></span></li>
+    </ul>
+</section>
+<footer>
+    <img src="../images/footer-bg.png" alt="" class="img1">
+    <ul>
+        <li>劳力士腕表</li>
+        <li>您的愿望清单</li>
+        <li>零售商地址</li>
+    </ul>
+    <img src="../images/rolex-logo-mobile.png" alt="" class="img2">
+    <div>
+        <img src="../images/top.png" alt="">
+        <p>返回页首</p>
+    </div>
+</footer>
+</body>
+</html>

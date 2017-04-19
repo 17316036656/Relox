@@ -1,0 +1,90 @@
+@function rem($px) {
+  @return $px / 20px * 1rem;
+}
+html{
+  margin:0 auto;
+  background: #f4f4f4;
+  font-size: rem(12px);
+}
+header{
+  width:100%;
+  height:rem(40px);
+  padding:0 rem(20px);
+  color: #818181;
+  font-weight: 100;
+  font-size: rem(12px);
+}
+header img{
+  width:rem(14px);
+  height:rem(14px);
+  margin-top:rem(12px);
+}
+header p{
+  line-height:rem(40px);
+  margin-left:rem(10px);
+  font-size: rem(10px);
+}
+
+section li{
+  text-align: center;
+  width: 100%;
+  color: #212121;
+  margin:rem(30px) 0;
+}
+section li i{
+  width:rem(10px);
+  height:rem(10px);
+  display: block;
+  margin-left:rem(155px);
+  margin-bottom:rem(10px);
+  border-bottom:rem(1px) solid #212121;
+}
+section li a{
+  display: block;
+  color: #818181;
+  line-height: 2.2;
+  font-size: rem(12px);
+}
+section li h3{
+  color: #212121;
+  font-weight: lighter;
+  font-size: rem(20px);
+}
+section li:last-child a{
+  height:rem(74px);
+  border: solid #e6e6e6;
+  border-width: 1px 0;
+  line-height: 6;
+  padding-right: 46px;
+  background: url("../images/world.jpg") no-repeat rem(160px);
+}
+
+footer .logo{
+  height: rem(72px);
+  margin:rem(30px) 0;
+  padding-top:rem(20px);
+}
+footer .logo img{
+  height: rem(40px);
+  margin-left:rem(120px);
+}
+footer .enjoy{
+  margin-bottom:rem(30px);
+}
+footer .enjoy ul{
+  display: inline-block;
+  margin-left:rem(51px);
+}
+footer .enjoy li{
+  display: inline-block;
+  padding:rem(5px) rem(8px);
+}
+footer .enjoy li img{
+  width:rem(12px);
+  height:rem(12px);
+}
+
+
+
+
+

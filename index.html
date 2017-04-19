@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <script src="js/zepto.js"></script>
+    <script src="js/swiper-3.4.2.jquery.min.js"></script>
+    <title>劳力士官方网站 - 经典奢华的腕表</title>
+    <script type="text/javascript">
+        (function(){
+            function initFontSize(){
+                document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
+            }
+            initFontSize();
+            window.addEventListener('resize',initFontSize,false);
+        })();
+        /*轮播图*/
+        $(document).ready(function () {
+            let mySwiper = new Swiper ('.swiper-container', {
+                pagination : '.swiper-pagination',
+                paginationClickable :true,
+                a11y: true,
+                prevSlideMessage: 'Previous slide',
+                nextSlideMessage: 'Next slide',
+                firstSlideMessage: 'This is the first slide',
+                lastSlideMessage: 'This is the last slide',
+                paginationBulletMessage:'Go to slide {{index}}',
+                direction: 'horizontal',
+                loop: true,
+                onTouchMove: function(swiper){
+                    if(swiper.activeIndex == 1){
+                        swiper.lockSwipeToPrev();
+                    }else{
+                        swiper.unlockSwipeToPrev();
+                    }
+                },
+                roundLengths : true,
+                autoplay : 3000,
+                speed:300
+            })
+        });
+
+        /*加载页面弹窗*/
+        $(document).ready(function () {
+            $('.position').css('display','block');
+            $('#box').css('display','block');
+            $('#close').on('touchstart',function () {
+                $('.position').css('display','none');
+                $('#box').css('display','none');
+            })
+        })
+    </script>
+</head>
+<body>
+<header data-role="header">
+    <h1>
+        <a href="index.html">
+            <img src="images/rolex-logo-mobile.png" alt="">
+        </a>
+    </h1>
+    <ul class="clearFix">
+        <li class="fl"><a href="code/menu.html"><img src="images/icon-menu.png" alt=""></a></li>
+        <li class="fr"><a href=code/wishList.html><img src="images/heart.png" alt=""></a></li>
+        <li class="fr"><a href="code/search.html"><img src="images/search.png" alt=""></a></li>
+    </ul>
+</header>
+<section>
+    <!--轮播图-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="one">
+                    <img src="images/mobile_1.jpg" alt="">
+                    <div>
+                        <h2>蚝式恒动</h2>
+                        <b>星期日历型 40</b>
+                        <p>
+                            <a href="#">探索此型号</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="one">
+                    <img src="images/mobile_2.jpg" alt="">
+                    <div>
+                        <h2>蚝式恒动</h2>
+                        <b>游艇名仕型 40</b>
+                        <p>
+                            <a href="#">探索更多</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="one">
+                    <img src="images/mobile_3.jpg" alt="">
+                    <div>
+                        <h2>蚝式恒动</h2>
+                        <b>星期日历型 36</b>
+                        <p>
+                            <a href="#">探索更多</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--end-->
+    <div class="two">
+        <h2>2017年巴塞尔世界</h2>
+        <p>新款劳力士腕表</p>
+    </div>
+    <div class="three">
+        劳力士隆重推出新款蚝式腕表与切利尼腕表。一如所有劳力士腕表，2017年推出的新款均获劳力士超卓天文台精密时计认证，并以绿色印章为标记，保证在精准、动力储备、防水与自动上链各个方面，其标准已超越制表业的常规和水平。所有认证均附有全球五年保用保证。
+    </div>
+    <div class="four">
+        <ul class="clearFix">
+            <li class="fl"></li>
+            <li class="fl">
+                <img src="images/homepage_baselworld_2017_sea-dweller_4000_0001_320x400.mobile.png" alt="">
+                <div>
+                    <a>新款蚝式恒动</a><br>
+                    <a>海使型</a>
+                </div>
+            </li>
+            <li class="fl">
+                <img src="images/homepage_baselworld_2017_yacht-master_ii_0001_320x400.mobile.png" alt="">
+                <div>
+                    <a>新款蚝式恒动</a><br>
+                    <a>游艇名仕型 II</a>
+                </div>
+            </li>
+            <li class="fl">
+                <img src="images/homepage_baselworld_2017_cosmograph_daytona_0001_320x400.mobile.png" alt="">
+                <div>
+                    <a>新款蚝式恒动</a><br>
+                    <a>宇宙计型迪通拿</a>
+                </div>
+            </li>
+            <li class="fl">
+                <img src="images/homepage_baselworld_2017_sky-dweller_0001_320x400.mobile.png" alt="">
+                <div>
+                    <a>新款蚝式恒动</a><br>
+                    <a>Sky-Dweller</a>
+                </div>
+            </li>
+            <li class="fl">
+                <img src="images/homepage_baselworld_2017_datejust_41_0001_320x400.mobile.png" alt="">
+                <div>
+                    <a>新款蚝式恒动</a><br>
+                    <a>日志型 41</a>
+                </div>
+            </li>
+            <li class="fl">
+                <img src="images/homepage_baselworld_2017_lady-datejust_28_0001_320x400.mobile.png" alt="">
+                <div>
+                    <a>新款蚝式恒动</a><br>
+                    <a>女装日志型 28</a>
+                </div>
+            </li>
+            <li class="fl">
+                <img src="images/homepage_baselworld_2017_moon_phase_0001_320x400.mobile.png" alt="">
+                <div>
+                    <a>新款切利尼</a><br>
+                    <a>月相型</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="five">
+        <h2>卓越性能与显赫象征</h2>
+        <h3>劳力士腕表</h3>
+        <p>浏览腕表系列</p>
+    </div>
+    <div class="six">
+        <img src="images/homepage_find_a_retailer_0001_1680x1070.mobile.jpg" alt="">
+        <div>
+            <h2>劳力士特约零售商</h2>
+            <h3>零售商地址</h3>
+            <p>寻找零售商</p>
+        </div>
+    </div>
+    <div class="six seven">
+        <img src="images/homepage_find_your_rolex_0002_1680x400.mobile.jpg" alt="">
+        <div>
+            <h2>让我们协助您</h2>
+            <h3>寻找您的劳力士腕表</h3>
+            <p>进阶搜寻</p>
+        </div>
+    </div>
+    <div class="eight">
+        <img src="images/rolex-experience-0001_320x270.mobile.jpg" alt="">
+        <img src="images/homepage_worldwide_servicing_0001_320x270.mobile.jpg" alt="">
+        <img src="images/golf_featured-selections_0001_640x540.mobile.jpg" alt="">
+    </div>
+</section>
+<footer>
+    <img src="images/footer-bg.png" alt="" class="img1">
+    <ul>
+        <li>劳力士腕表</li>
+        <li>您的愿望清单</li>
+        <li>零售商地址</li>
+    </ul>
+    <img src="images/rolex-logo-mobile.png" alt="" class="img2">
+    <div>
+        <img src="images/top.png" alt="">
+        <p>返回页首</p>
+    </div>
+    <span>法律声明</span>
+</footer>
+<div id="box"></div>
+<div class="position" style="display: none;">
+    <div class="content">
+        <div class="pic">
+            <img src="images/official-retailer-plaque-zh-hans.jpg" alt="">
+        </div>
+        <h4>劳力士的新款真品腕表仅由劳力士特约零售商独家发售。</h4>
+        <p>他们凭借所需的专业知识与专门技术，能保证您所购买的劳力士为真品腕表外，并可享有五年保修服务。</p>
+    </div>
+    <button id="close">
+        <img src="images/close.png" alt="">
+    </button>
+</div>
+</body>
+</html>

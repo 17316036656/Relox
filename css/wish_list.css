@@ -1,0 +1,166 @@
+header {
+  width: 14.5rem;
+  height: 0.7rem;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 1.3rem 0.75rem 0.45rem;
+  background: #fff; }
+
+header h1 {
+  position: absolute;
+  top: 0.4rem;
+  left: 6.5rem; }
+
+header h1 img {
+  height: 1.75rem;
+  width: 3.05rem; }
+
+header li:first-child img {
+  width: 1.2rem;
+  height: 0.9rem; }
+
+header li:nth-child(2) img {
+  width: 0.7rem;
+  height: 0.6rem;
+  margin-left: 1.5rem; }
+
+header li:last-child img {
+  width: 0.9rem;
+  height: 0.9rem; }
+
+section {
+  padding-top: 2.5rem;
+  width: 16rem;
+  text-align: center;
+  font-weight: normal; }
+
+section .wish {
+  padding: 1rem 1.25rem;
+  font-size: 0.6rem; }
+
+section .wish h2 {
+  color: #a37e2c; }
+
+section .wish h3 {
+  color: #212121;
+  line-height: 1.25rem;
+  font-size: 1.1rem;
+  margin-top: 0.1rem; }
+
+section .wish p {
+  color: #666;
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  font-weight: 100; }
+
+section .find {
+  margin: 2rem 0.7rem;
+  padding-top: 2.6rem;
+  background: url(../images/rlx-watch-empty.svg) center 2px no-repeat; }
+
+section .find p {
+  max-width: 100%;
+  padding: 0 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  line-height: 1.5; }
+
+section .find a {
+  height: 2.25rem;
+  line-height: 2.25rem;
+  display: inline-block;
+  padding: 0 1rem;
+  border: 1px solid rgba(33, 33, 33, 0.3);
+  border-radius: 0.1rem; }
+
+section .pic {
+  height: 13.75rem; }
+
+section .pic img {
+  width: 16rem;
+  height: 13.75rem; }
+
+section .move {
+  position: relative;
+  top: -10rem; }
+
+section .move h2 {
+  color: #e6e6e6; }
+
+section .move h3 {
+  color: #e6e6e6;
+  line-height: 1.25rem;
+  font-size: 1.1rem;
+  margin-top: 0.1rem; }
+
+section .move a {
+  height: 2.25rem;
+  margin-top: 0.5rem;
+  line-height: 2.25rem;
+  display: inline-block;
+  padding: 0 1rem;
+  border: 0.05rem solid rgba(255, 255, 255, 0.3);
+  border-radius: 0.1rem;
+  color: #e6e6e6; }
+
+footer {
+  width: 16rem;
+  height: 16.1rem;
+  background: #fcfcfc;
+  position: relative;
+  bottom: 0; }
+
+footer .img1 {
+  width: 12.25rem;
+  height: 12.25rem;
+  margin: 0 0 0 1.9rem;
+  padding-top: 1.5rem;
+  background: #fcfcfc; }
+
+footer ul {
+  width: 16rem;
+  height: 6.15rem;
+  margin: 2rem 0;
+  position: relative;
+  top: -13.75rem; }
+
+footer ul li {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #818181;
+  border-bottom: 0.05rem solid #f1f1f1;
+  font-weight: 100;
+  font-size: 0.6rem; }
+
+footer .img2 {
+  width: 2.5rem;
+  height: 1.4rem;
+  position: relative;
+  top: -13.75rem;
+  margin-left: 6.75rem; }
+
+footer div {
+  margin: 1rem 0 1.5rem;
+  padding: 0.75rem 0 0;
+  position: relative;
+  top: -14rem; }
+
+footer div img {
+  width: 0.4rem;
+  height: 0.35rem;
+  margin-left: 7.8rem;
+  margin-bottom: -0.1rem; }
+
+footer p {
+  height: 1.3rem;
+  text-align: center;
+  line-height: 1.3rem;
+  font-size: 0.6rem;
+  color: #818181;
+  font-weight: 100; }
+
+/*# sourceMappingURL=wish_list.css.map */

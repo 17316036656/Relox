@@ -1,0 +1,192 @@
+@function rem($px) {
+  @return $px / 20px * 1rem;
+}
+header{
+  width:rem(290px);
+  height:rem(14px);
+  position: fixed;
+  top:0;
+  z-index:99;
+  border-bottom: 1px solid #f3f3f3;
+  padding:rem(26px) rem(15px) rem(9px);
+  background: #fff;
+}
+header h1{
+  position: absolute;
+  top:rem(8px);
+  left:rem(130px);
+}
+header h1 img{
+  height:rem(35px);
+  width: rem(61px);
+}
+header li:first-child img{
+  width:rem(24px);
+  height:rem(18px);
+}
+header li:nth-child(2) img{
+  width:rem(14px);
+  height:rem(12px);
+  margin-left: rem(30px);
+}
+header li:last-child img{
+  width:rem(18px);
+  height:rem(18px);
+}
+
+section{
+  padding-top:rem(50px);
+  width: rem(320px);
+  text-align: center;
+  font-weight: normal;
+}
+section .wish{
+  padding:rem(20px) rem(25px);
+  font-size:rem(12px);
+}
+section .wish h2{
+  color: #a37e2c;
+}
+section .wish h3{
+  color: #212121;
+  line-height: rem(25px);
+  font-size: rem(22px);
+  margin-top: rem(2px);
+}
+section .wish p{
+  color: #666;
+  font-size: rem(12px);
+  margin-top:rem(10px);
+  line-height: 1.4;
+  font-weight: 100;
+}
+section .find{
+  margin: rem(40px) rem(14px);
+  padding-top: rem(52px);
+  background: url(../images/rlx-watch-empty.svg) center 2px no-repeat;
+}
+section .find p{
+  max-width: 100%;
+  padding:0 rem(20px);
+  margin-top:rem(15px);
+  margin-bottom:rem(20px);
+  line-height: 1.5;
+}
+section .find a{
+  height:rem(45px);
+  line-height: rem(45px);
+  display: inline-block;
+  padding:0 rem(20px);
+  border: 1px solid rgba(33,33,33,0.3);
+  border-radius: rem(2px);
+}
+section .pic{
+  height:rem(275px);
+}
+section .pic img{
+  width: rem(320px);
+  height:rem(275px);
+}
+section .move{
+  position: relative;
+  top:rem(-200px);
+}
+section .move h2{
+  color: #e6e6e6;
+}
+section .move h3{
+  color: #e6e6e6;
+  line-height: rem(25px);
+  font-size: rem(22px);
+  margin-top: rem(2px);
+}
+section .move a{
+  height:rem(45px);
+  margin-top:rem(10px);
+  line-height: rem(45px);
+  display: inline-block;
+  padding:0 rem(20px);
+  border:rem(1px) solid rgba(255,255,255,0.3);
+  border-radius: rem(2px);
+  color: #e6e6e6;
+}
+
+
+
+footer{
+  width:rem(320px);
+  height: rem(322px);
+  background:#fcfcfc;
+  position: relative;
+  bottom: 0;
+}
+footer .img1{
+  width:rem(245px);
+  height: rem(245px);
+  margin:0 0 0 rem(38px);
+  padding-top:rem(30px);
+  background:#fcfcfc;
+}
+footer ul{
+  width:rem(320px);
+  height: rem(123px);
+  margin:rem(40px) 0;
+  position: relative;
+  top: rem(-275px);
+}
+footer ul li{
+  height: rem(40px);
+  line-height:rem(40px);
+  text-align: center;
+  color: #818181;
+  border-bottom:rem(1px) solid #f1f1f1;
+  font-weight:100;
+  font-size:rem(12px);
+}
+footer .img2{
+  width:rem(50px);
+  height: rem(28px);
+  position: relative;
+  top: rem(-275px);
+  margin-left:rem(135px);
+}
+footer div{
+  margin: rem(20px) 0 rem(30px);
+  padding: rem(15px) 0 0;
+  position: relative;
+  top:rem(-280px);
+}
+footer div img{
+  width:rem(8px);
+  height:rem(7px);
+  margin-left:rem(156px);
+  margin-bottom:rem(-2px);
+}
+footer p{
+  height: rem(26px);
+  text-align: center;
+  line-height:rem(26px);
+  font-size:rem(12px);
+  color: #818181;
+  font-weight:100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
